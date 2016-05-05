@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi  Mash"
+        android:id="@+id/textView50"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70sp"
+        android:textColor="#5de35d"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="230sp"
+        android:layout_height="50sp"
+        android:text="Send Money"
+        android:id="@+id/btnHomeSend"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        android:clickable="true"/>
+
+    <Button
+        android:layout_width="230sp"
+        android:layout_height="50sp"
+        android:text="Pay A Bill"
+        android:id="@+id/btnHomePay"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100sp"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        android:clickable="true"/>
+
+</LinearLayout>

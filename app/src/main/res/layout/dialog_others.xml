@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Account Name"
+        android:id="@+id/textView27" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:id="@+id/edtOtherAccountName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Account Number"
+        android:id="@+id/textView28" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:inputType="number"
+        android:ems="16"
+        android:id="@+id/edtOtherAccountNumber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Paybill Number"
+        android:id="@+id/textView29" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtOtherPaybillNumber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Purpose"
+        android:id="@+id/textView30" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtOtherPurpose" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Amount"
+        android:id="@+id/textView31" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtOtherAmount" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/btnOtherCancel"
+            style="?attr/borderlessButtonStyle"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/btnOtherPay"
+            style="?attr/borderlessButtonStyle"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>

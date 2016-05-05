@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="School name"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:id="@+id/edtSchName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="School account number"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:id="@+id/textView12" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:ems="10"
+        android:id="@+id/edtSchAcctNo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Student name"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:id="@+id/textView13" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:ems="10"
+        android:id="@+id/edtSchStdName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Level of study"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:id="@+id/textView14" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:id="@+id/edtSchLevel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Amount"
+        android:id="@+id/textView15" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:ems="10"
+        android:id="@+id/edtSchAmount" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            style="?attr/borderlessButtonStyle"
+            android:id="@+id/btnSchCancel" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay"
+            style="?attr/borderlessButtonStyle"
+            android:id="@+id/btnSchPay" />
+    </LinearLayout>
+</LinearLayout>

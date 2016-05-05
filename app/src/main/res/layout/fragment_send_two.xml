@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/joe.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/joe.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose from My Contacts"
+        android:id="@+id/btnSendChoose"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        style="?attr/borderlessButtonStyle"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="First name"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/textView70" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/edtSendFname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Last name"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/textView71" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:ems="10"
+        android:id="@+id/edtSendLname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/textView72" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/edtSendEmail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tel"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/textView73" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/edtSendTel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Card number"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/textView74" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/edtSendCardNo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/btnSendTwo"
+        style="?attr/borderlessButtonStyle"
+        android:layout_gravity="right" />
+
+</LinearLayout>

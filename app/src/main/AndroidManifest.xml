@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ogresolutions.imali.semapay">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/joe">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/joe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dialog.DialogOthers"
+            android:label="Others (Specify)"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".dialog.DialogPower"
+            android:label="Pay Electricity Bill"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".dialog.DialogCard"
+            android:label="Choose a Card"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".dialog.DialogSchool"
+            android:label="Pay School Fees"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".dialog.DialogBuy"
+            android:label="Buy Goods"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".dialog.DialogToken"
+            android:label="Buy Electricity Tokens"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".dialog.DialogWater"
+            android:label="Pay Water Bill"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".dialog.CardRegister"
+            android:label="Enter Card Details"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".activity.CreateAccount"
+            android:label="Create a UBA Account"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/joe">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dialog.DialogContact"
+            android:label="@string/title_activity_dialog_contact"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".dialog.DialogConfirm"
+            android:label="@string/title_activity_dialog_confirm"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" />
+    </application>
+
+</manifest>

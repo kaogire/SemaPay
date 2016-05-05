@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp"
+    android:background="?android:attr/activatedBackgroundIndicator">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCardName"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="start"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCardType"
+            android:text="type"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="3sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCardNo"
+        android:text="Number"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="start"/>
+
+</LinearLayout>

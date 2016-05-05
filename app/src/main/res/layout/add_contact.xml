@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="First Name"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:id="@+id/textView56" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtConFname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Last Name"
+        android:id="@+id/textView57" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtConLname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tel"
+        android:id="@+id/textView59" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edtConTel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email"
+        android:id="@+id/textView60" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/edtConEmail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Card Number"
+        android:id="@+id/textView62" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtConCard" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Country"
+        android:id="@+id/textView61" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtConCountry" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="wrap_content"
+        android:text="Add to my contacts"
+        android:id="@+id/btnConAdd"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

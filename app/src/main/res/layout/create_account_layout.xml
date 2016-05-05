@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/joe.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/joe.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Personal Details"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Full name (as appears in the national ID)"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtCreateName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Date Of Birth"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtCreateDob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="ID Number"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtCreateID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Gender"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/rgbCreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp">
+
+                <RadioButton
+                    android:id="@+id/rbnCreateMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/rbnCreateFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Tel"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtCreateTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Email Address"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtCreateEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Occupation"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtCreateOccupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="KRA PIN"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtCreateKRA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Postal Address"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtCreatePOBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Postal Code"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtCreatePOCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Attach a copy of your National ID or Passport"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imgCreateID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <Button
+                android:id="@+id/btnCreateId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_action_picture"
+                android:onClick="ButtononClick"
+                android:padding="10sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Attach a copy of your KRA PIN"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imgCreateKRA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <Button
+                android:id="@+id/btnCreateKRA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_action_picture"
+                android:onClick="ButtononClick"
+                android:padding="10sp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Attach a copy of your sample signature"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imgCreateSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <Button
+                android:id="@+id/btnCreateSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_action_picture"
+                android:onClick="ButtononClick"
+                android:padding="10sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Attach a copy of your passport size photo"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imgCreatePic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp" />
+
+            <Button
+                android:id="@+id/btnCreatePic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_action_picture"
+                android:onClick="ButtononClick"
+                android:padding="10sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

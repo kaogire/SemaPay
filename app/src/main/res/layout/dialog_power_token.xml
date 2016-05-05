@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Meter Number"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:id="@+id/textView65" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtTokenMeter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Amount"
+        android:id="@+id/textView66" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:ems="10"
+        android:id="@+id/edtTokenAmount" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:gravity="end">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            style="?attr/borderlessButtonStyle"
+            android:id="@+id/btnTokenCancel" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/borderlessButtonStyle"
+            android:text="Buy"
+            android:id="@+id/btnTokenBuy" />
+    </LinearLayout>
+</LinearLayout>

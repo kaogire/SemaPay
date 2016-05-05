@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Card Number"
+        android:id="@+id/textView46" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:id="@+id/edtCardNumber"
+        android:maxLength="16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Card Security Number"
+        android:id="@+id/textView47" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberPassword"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:ems="10"
+        android:id="@+id/edtCardSecurity"
+        android:maxLength="3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Confirm Card Security Number"
+        android:id="@+id/textView48" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:inputType="number|numberPassword"
+        android:ems="10"
+        android:id="@+id/edtCardSecurity2"
+        android:maxLength="3" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            style="?attr/borderlessButtonStyle"
+            android:id="@+id/btnCardRegisterCancel"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:id="@+id/btnCardRegisterOk"
+            style="?attr/borderlessButtonStyle"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+</LinearLayout>

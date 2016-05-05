@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">SemaPay</string>
+    <string name="action_settings">Settings</string>
+    <!--nav Drawer menu items-->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Find People</item>
+        <item>Photos</item>
+        <item>Communities</item>
+        <item>Pages</item>
+        <item>What\'s Hot</item>
+    </string-array>
+    <!--Content Description-->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string-array name="bills_home">
+        <item>School Fees</item>
+        <item>Power</item>
+        <item>Buy Power Tokens</item>
+        <item>Water</item>
+        <item>Buy Goods</item>
+        <item>Others</item>
+    </string-array>
+    <string name="title_activity_dialog_contact">Contacts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="coutries">
+        <item>Kenya</item>
+        <item>Uganda</item>
+        <item>Tanzania</item>
+        <item>South Sudan</item>
+    </string-array>
+    <string name="url_water">water</string>
+    <string name="url_school">school</string>
+    <string name="url_others">others</string>
+    <string name="url_buy">buy goods</string>
+    <string name="url_power">power</string>
+    <string name="url_tokens">power tokens</string>
+    <string name="url_send_cash">send_cash</string>
+    <string name="title_activity_dialog_confirm">Confirm Transaction</string>
+    <string name="next">Next</string>
+</resources>

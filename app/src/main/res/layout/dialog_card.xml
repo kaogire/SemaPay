@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:padding="5sp"
+        android:scrollbars="vertical"
+        android:id="@+id/rvCard">
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="end">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/borderlessButtonStyle"
+            android:text="Cancel"
+            android:id="@+id/btnCardCancel" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            style="?attr/borderlessButtonStyle"
+            android:id="@+id/btnCardOk" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

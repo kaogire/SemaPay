@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receiver Details"
+        android:id="@+id/textView2"
+        android:layout_gravity="right"
+        android:gravity="center_horizontal"
+        android:textColor="#61739e"
+        android:textSize="20sp"
+        android:paddingTop="45dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tel"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edtTel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email"
+        android:id="@+id/textView5" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtEmail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Account number"
+        android:id="@+id/textView6" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/edtAccountNumber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Acount Name"
+        android:id="@+id/textView7" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAcountName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Country"
+        android:id="@+id/textView8" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCountry" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sending Details"
+        android:id="@+id/textView9"
+        android:layout_gravity="right"
+        android:gravity="center_horizontal"
+        android:textColor="#61739e"
+        android:textSize="20sp"
+        android:paddingTop="5sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Amount"
+        android:id="@+id/textView10" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/edtAmount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Method of Payment"
+        android:id="@+id/textView11" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMethodPay" />
+
+</LinearLayout>

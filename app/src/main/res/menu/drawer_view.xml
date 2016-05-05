@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kwetu"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Send Money" />
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Paybill" />
+        <item android:title="My Contacts">
+            <item
+                android:id="@+id/nav_con"
+                android:icon="@android:drawable/ic_menu_recent_history"
+                android:title="Add Contact" />
+            <item
+                android:id="@+id/nav_all_con"
+                android:icon="@android:drawable/ic_menu_recent_history"
+                android:title="All Contact" />
+        </item>
+        <item android:title="Reports">
+            <item
+                android:id="@+id/nav_sent"
+                android:icon="@drawable/ic_dashboard"
+                android:title="Sent Money" />
+            <item
+                android:id="@+id/nav_received"
+                android:icon="@android:drawable/ic_menu_recent_history"
+                android:title="Received money" />
+            <item
+                android:id="@+id/nav_bill_paid"
+                android:icon="@android:drawable/ic_menu_recent_history"
+                android:title="Bills paid" />
+        </item>
+        <item android:title="Bank">
+            <item
+                android:id="@+id/nav_create_acc"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="Create Account" />
+        </item>
+        <item android:title="Configuration">
+            <item
+                android:id="@+id/nav_add_card"
+                android:icon="@drawable/ic_dashboard"
+                android:title="Add a Card" />
+            <item
+                android:id="@+id/nav_remove_card"
+                android:icon="@drawable/ic_dashboard"
+                android:title="Delete a Card" />
+        </item>``
+        <!--<item-->
+        <!--android:id="@+id/nav_bill"-->
+        <!--android:icon="@android:drawable/ic_menu_recent_history"-->
+        <!--android:title="Paybill" />-->
+    </group>
+</menu>

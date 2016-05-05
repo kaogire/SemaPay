@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/joe.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/joe.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="From"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/textView58" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/edtSendFrom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="To"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/textView67" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/spnSendCountry" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Amount"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/textView68" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/edtSendAmount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/textView69" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgSend"
+        android:layout_gravity="center"
+        android:gravity="start">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card"
+            android:checked="true"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:id="@+id/rbnSendCard" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M-Pesa"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:id="@+id/rbnSendMpesa" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/btnSendOne"
+        style="?attr/borderlessButtonStyle"
+        android:layout_gravity="right" />
+</LinearLayout>
